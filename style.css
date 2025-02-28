@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    background: #ffc600;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+}
+
+.panel {
+    background: #6B0F9c;
+    box-shadow: inset;
+}
